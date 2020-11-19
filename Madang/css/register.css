@@ -1,0 +1,24 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 60vw;
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.card img {
+  max-width: 100%;
+  margin: auto;
+}
+.card .left {
+  margin-top: 40%;
+}
+.card::-webkit-scrollbar {
+  display: none; /*Chrome*/
+}

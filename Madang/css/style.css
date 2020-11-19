@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:500,500i|Montserrat:500,500i,600,600i,700,700i");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.first {
+  height: 100vh;
+  background-image: url(../img/bg_carousel1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-top: 18vh;
+  text-align: center;
+}
+.first h1 {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 5vmax;
+}
+.first h2 {
+  margin: 0 auto;
+  font-size: 3vmax;
+}
+.first p {
+  margin: 0 auto;
+  font-size: 1.2vmax;
+  margin-top: 1vh;
+}
+.second {
+  padding-top: 5vh;
+  overflow-x: hidden;
+}
+.second h2 {
+  font-weight: bold;
+}
+.second p {
+  text-align: justify;
+}
+.third {
+  padding: 5vh;
+  background-color: #ebecf0;
+  overflow-x: hidden;
+}
+.third img {
+  max-height: 200px;
+}
+/* .third .arrow_prev {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+.third .arrow_next {
+  position: absolute;
+  top: 50%;
+  margin-top: 50%;
+} */
+.third h1 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.third h5 {
+  font-style: italic;
+}
+.third p {
+  margin-top: 1em;
+  text-align: justify;
+}
+.fourth {
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.fourth h1 {
+  font-weight: bold;
+}
+.fourth .card {
+  margin: 0.5em 1em;
+  height: 270px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+}
+.fourth .card h1 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.fourth .card:hover {
+  cursor: pointer;
+  border: 2px solid #bad6e5;
+}
+.fourth .menu-artikel {
+  background-image: url(../img/menu_artikel.jpg);
+}
+.fourth .menu-diet {
+  background-image: url(../img/menu_diet.jpg);
+}
+.fourth .menu-quiz {
+  background-image: url(../img/menu_quiz.jpg);
+}
+.fourth .menu-madang {
+  background-image: url(../img/menu_madang.jpg);
+}
+.fourth .card img {
+  height: 270px;
+  object-fit: cover;
+}
+footer {
+  padding: 0.5em 0;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 0.7vmax;
+}
+footer span {
+  font-weight: bold;
+  font-size: 1vmax;
+}
+
+/* Media Query */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  .first {
+    padding-top: 30vh !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+  .first {
+    padding-top: 30vh !important;
+  }
+}

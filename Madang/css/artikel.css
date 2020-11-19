@@ -1,0 +1,51 @@
+@import url(../style.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:500,500i|Montserrat:500,500i,600,600i,700,700i");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+.artikel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  background-image: url(../img/menu_artikel.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.artikel h1 {
+  font-weight: bold;
+  color: white;
+}
+.konten {
+  padding: 5vh;
+}
+.konten .nav-konten ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+.konten .nav-konten li {
+  margin-right: 0.15em;
+  display: inline;
+  background-color: #0275d8;
+  padding: 0.5em;
+  color: white;
+  border-radius: 0.1em;
+}
+.konten .nav-konten li:hover {
+  cursor: pointer;
+  border: 2px solid #bad6e5;
+}
+.konten .card {
+  width: 100%;
+}
+.konten .card:hover {
+  cursor: pointer;
+}
+.konten .card img {
+  height: 225px;
+  object-fit: cover;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+        <ImageView
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/profile"
+            android:id="@+id/foto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/foto"
+        app:cardCornerRadius="10sp"
+        android:id="@+id/identitas"
+        android:layout_marginTop="15sp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="25sp"
+                android:layout_marginBottom="10sp"
+                android:id="@+id/username"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginBottom="10sp"
+                android:textSize="25sp"
+                android:id="@+id/email"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Handphone"
+                android:textSize="25sp"
+                android:id="@+id/no_hp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="350sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="Sign Out"
+            android:id="@+id/signOut"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/btn_round"
+            android:layout_below="@+id/identitas"/>
+
+</RelativeLayout>

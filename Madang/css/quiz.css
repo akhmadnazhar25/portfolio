@@ -1,0 +1,15 @@
+@import url(../css/style.css);
+
+.quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  background-image: url(../img/menu_quiz.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.quiz h1 {
+  font-weight: bold;
+  color: white;
+}
